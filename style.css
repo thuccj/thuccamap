@@ -23,6 +23,13 @@ canvas {
   position: absolute;
   z-index: 1;
   animation: animate 1.2s infinite;
+  font-size: 60px;
+  /* background-color: #F0FF42;  */
+  background-image: url('./an.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .box {
   width: 1000px;
