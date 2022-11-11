@@ -18,6 +18,12 @@ canvas {
   height: 100%;
 }
 
+.text{
+  color: #F0FF42;
+  position: absolute;
+  z-index: 1;
+  animation: animate 1.2s infinite;
+}
 .box {
   width: 1000px;
   position: absolute;
