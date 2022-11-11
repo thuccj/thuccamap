@@ -18,19 +18,17 @@ canvas {
   height: 100%;
 }
 
-.text{
-  color: #F0FF42;
+/* .text{
   position: absolute;
   z-index: 1;
   animation: animate 1.2s infinite;
   font-size: 60px;
-  /* background-color: #F0FF42;  */
   background-image: url('./an.png');
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-clip: text;
   color: transparent;
-}
+} */
 .box {
   width: 1000px;
   position: absolute;
@@ -47,6 +45,7 @@ canvas {
   height: 750px;
   width: 750px;
   animation: animate 1.2s infinite;
+  /* box-shadow: 0 0 5px 5px red; */
 }
 
 #pinkboard:before,
